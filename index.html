@@ -73,7 +73,7 @@
                                 Research Assistant, supervised by Professor <a href="https://www.comp.nus.edu.sg/~hebs/" "="">Bingsheng He</a>, NUS</p>
                             <ul>
 								<p>
-									We summarized the non-iid data partition in previous works, and added more data partition methods based on project FedMA. We are currently running a benchmark for different non-iid scenario using FedAvg algorithm. The algorithm fails in extreme non-iid case (e.g. each party only contains one category of data). Still on progress to solve this problem.
+									We summarized the non-iid data partition in previous works (label skew & feature skew), then implemented different types and levels of non-iid partition methods by revising data loader in pytorch to simulate those scenarios. We are currently running a benchmark for different non-iid scenario with FedAvg & FedProx algorithm. Both algorithms fail in extreme non-iid case (e.g. each party only contains one category of data). We're considering generative model. Still on progress to solve this problem.
 								</p>
                             
 
@@ -83,7 +83,7 @@
                                 Independent Research, supervised by Professor <a href="https://www.cs.utexas.edu/~bajaj/cvc/index.shtml" "="">Chandrajit Bajaj</a>, UT Austin</p>
                             <ul>
 								<p>
-									This study uses various methods to classify the severity of carotid artery. We revised the Augmented Neural Ode Net for this medical task and slightly improved the accuracy to ~80%. With some domain knowledge, we know the data contains much noise and probably fail to yield accuracy above 90% (which could be put in practical use then). Details can be found in this <a href="https://scai.confex.com/scai/2020/meetingapp.cgi/Paper/11034" "="">abstract</a>. How much test accuracy can we achieve on a data set? Is our model complex enough? These are all open questions. 
+									This study uses various methods to classify the severity of carotid artery. We revised the Augmented Neural Ode Net for this medical task and slightly improved the accuracy to ~80%. With some domain knowledge, we know the data contains much noise and probably fail to yield accuracy above 90% (which could be put in practical use then). Details can be found in this <a href="https://scai.confex.com/scai/2020/meetingapp.cgi/Paper/11034" "="">abstract</a>. We tried to explain why source data are not informative enough by visualization and statistical theory such as CCA, Rademacher Complexity. How much test accuracy can we achieve on a data set? Is our model complex enough? These are all open questions. 
 								</p>
                             
 
