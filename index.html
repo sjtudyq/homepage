@@ -73,7 +73,7 @@
                                 Research Assistant, supervised by Professor <a href="https://www.comp.nus.edu.sg/~hebs/" "="">Bingsheng He</a>, NUS</p>
                             <ul>
 								<p>
-									We summarized the non-iid data partition in previous works (label skew & feature skew), then implemented different types and levels of non-iid partition methods by revising data loader in pytorch to simulate those scenarios. We are currently running a benchmark for different non-iid scenario with FedAvg & FedProx algorithm. Both algorithms fail in extreme non-iid case (e.g. each party only contains one category of data). We're considering generative model. Still on progress to solve this problem.
+									We summarized the non-iid data partition in previous works (label skew & feature skew), then implemented different types and levels of non-iid partition methods by revising data loader in pytorch to simulate those scenarios. We ran a benchmark for different non-iid scenario with FedAvg & FedProx algorithm. Both algorithms fail in extreme non-iid case (e.g. each party only contains one category of data). We're considering generative model. Generative model is good when data is extreme non-iid, but bad when data is iid. So we try to combine generative model with FedAvg. Still on progress to solve the problem of privacy and communication complexity.
 								</p>
                             
 
